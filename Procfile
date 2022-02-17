@@ -1,1 +1,1 @@
-web: gunicorn app:src/flask_app/hello_world
+web: gunicorn wsgi:src/flask_app/hello_world
